@@ -1,0 +1,71 @@
+/* creation de la grille morpion */
+ 
+.box {
+    height: 150px;
+    width: 150px;
+    border: rgb(20, 238, 13) 3px solid;
+    box-shadow: 2px 2px 7px 2px rgb(1, 119, 7);
+    font-weight: bold;
+    font-size: 100px;
+}
+
+.grid {
+    margin-left: 260px;
+    display: grid;
+    max-width: 300px;
+    grid-template-columns: 1fr 1fr 1fr; 
+}
+
+/* fin de la creation de la grille morpion */
+
+
+body{
+  background-size: cover;
+}
+
+.box:hover{
+  color: rgb(14, 9, 9);
+  background: rgb(142, 212, 128);
+  transform: scale(1) rotate(20deg);
+
+}
+
+.card{
+  box-shadow: 2px 2px 7px 2px rgb(1, 119, 7);
+}
+
+.container{
+  margin-top: 50px;
+}
+
+/* css button commencer et try */
+
+#btn{
+    color: rgb(255, 255, 255); font-size: 50px; line-height: 19px; padding: 24px; border-radius: 16px; font-family: Georgia, serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(to right, rgb(4, 126, 4) 0%, rgb(6, 131, 12) 50%, rgb(2, 88, 9) 100%); box-shadow: rgb(39, 182, 3) 5px 5px 15px 5px; border: 2px solid rgb(40, 173, 7); display: inline-block;
+}
+#btn:hover{
+  background: rgb(87, 221, 10);
+ }
+
+#btnTry{
+  color: rgb(255, 255, 255); font-size: 50px; line-height: 19px; padding: 24px; border-radius: 16px; font-family: Georgia, serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(to right, rgb(4, 126, 4) 0%, rgb(6, 131, 12) 50%, rgb(2, 88, 9) 100%); box-shadow: rgb(39, 182, 3) 5px 5px 15px 5px; border: 2px solid rgb(40, 173, 7); display: inline-block;
+  margin-left: 30px;
+  
+}
+
+#btnTry:hover{
+  background: rgb(87, 221, 10); }
+
+/* message d'affichage status et p */
+
+#status{
+  text-align: center;
+  height: 30px;
+  color: rgb(2, 7, 2);
+}
+
+p{
+  color: rgb(3, 14, 3);
+  padding: 2%;
+}
+
